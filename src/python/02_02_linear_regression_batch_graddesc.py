@@ -30,7 +30,9 @@ def MSEStep(X, y, W, b, learn_rate=0.005):
     error = y - y_pred
 
     # new coefficients
+    # w1 = w1 + alpha * (q - q^) * p
     W_new = W + learn_rate * np.matmul(error, X)
+    # w2 = w2 + alpha * (q - q^)
     b_new = b + learn_rate * error.sum()
     return W_new, b_new
 
