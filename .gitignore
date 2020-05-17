@@ -1,5 +1,6 @@
 .idea/
 venv/
 .ipynb_checkpoints/
-course-downloads/
+course-downloads/videos
 .DS_Store
+__pycache__/
