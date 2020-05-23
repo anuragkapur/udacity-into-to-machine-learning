@@ -4,3 +4,5 @@ venv/
 course-downloads/videos
 .DS_Store
 __pycache__/
+src/projects/p3_identify_customer_segments/*.csv
+src/projects/p3_identify_customer_segments/*.md
